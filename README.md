@@ -1,6 +1,6 @@
 # fall2018-midterm
 
-fork this repository and clone the forked repository to your VVC linux account.
+## fork this repository and clone the **forked repository** to your VVC linux account.
 
 Write a program that has the following requirements:
 
