@@ -9,7 +9,6 @@ clean:
 
 submit:
 	git add .
-	echo "Enter commit message: "
-	read COMMIT
-	git commit -a -m "$COMMIT"
+	read -r -p "Enter commit message: " COMMIT
+	git commit -a -m '$$COMMIT'
 	git push
