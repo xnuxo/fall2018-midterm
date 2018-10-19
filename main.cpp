@@ -16,7 +16,7 @@ int char_count(string str, char ch);
 
 int main()
 {
-	cout << get_string("Please enter a string: ", "Enter the letter or number you wish to count: ") << endl;
+	cout << get_string("Please enter a string: ", "Enter the letter or number you wish to search and count: ") << " charaters match your given search charater." << endl;
 	return 0;
 }
 
